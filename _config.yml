@@ -1,0 +1,33 @@
+
+title: "Anton Nikolaev"
+description: "Economist | Health & Spatial Economics | Applied Micro"
+baseurl: ""  # the subpath of your site, e.g. /blog
+url: ""      # the base hostname & protocol for your site
+
+# Optional social links (fill in when ready)
+scholar: ""
+orcid: ""
+github_username: "antonnikolaev"  # change if different
+linkedin_username: ""
+
+# Email for contact
+email: "nicoloanto@yandex.ru"
+
+# Use a lightweight Jekyll theme by default; you can switch to academicpages later
+theme: jekyll-theme-minimal
+
+# If you later decide to use AcademicPages, uncomment this:
+# remote_theme: "academicpages/academicpages"
+# plugins:
+#   - jekyll-include-cache
+#   - jekyll-feed
+#   - jekyll-sitemap
+
+# Navigation (edit text or order as you like)
+nav:
+  - {name: "About", link: "/about"}
+  - {name: "Publications", link: "/publications"}
+  - {name: "Projects", link: "/projects"}
+  - {name: "Talks", link: "/talks"}
+  - {name: "CV", link: "/cv"}
+  - {name: "Contact", link: "/contact"}
