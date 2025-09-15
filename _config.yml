@@ -1,0 +1,90 @@
+
+# Site settings
+title: "Anton Nikolaev"
+tagline: "Health & Spatial Economics · Applied Micro"
+description: "Economist focusing on health economics, spatial econometrics, and applied microeconomics."
+url: "https://antonnikolaev.github.io"   # change if using custom domain
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:title/
+# Use AcademicPages remote theme
+remote_theme: "academicpages/academicpages@v0.5.0"
+
+# Plugins
+plugins:
+  - jekyll-include-cache
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Appearance
+# Palettes: default, ocean, forest, berry, autumn (AcademicPages variants)
+# Choose a calm academic palette:
+color_scheme: "ocean"
+logo: "/assets/img/avatar.png"
+favicon: "/assets/img/favicon.ico"
+
+# Author profile
+author:
+  name: "Anton Nikolaev"
+  avatar: "/assets/img/avatar.png"
+  bio: "Economist · Health & Spatial Economics · Applied Micro. Master in Economic Policy (MSU)."
+  location: "Tallinn / Moscow"
+  employer: "Health Economics / Analytics"
+  email: "nicoloanto@yandex.ru"
+  google_scholar: ""   # fill
+  orcid: ""            # fill
+  github: "antonnikolaev"
+  linkedin: ""         # fill
+  # additional_links:
+  #   - title: CV (PDF)
+  #     url: "/assets/cv/AntonNikolaevCV.pdf"
+
+# Collections (AcademicPages uses these for content types)
+collections:
+  teaching:
+    output: true
+  publications:
+    output: true
+  talks:
+    output: true
+  projects:
+    output: true
+  posts:
+    output: true
+
+# Defaults for collection items
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "single"
+      author_profile: true
+  - scope:
+      path: ""
+      type: "publications"
+    values:
+      layout: "single"
+      classes: "wide"
+      author_profile: true
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "single"
+      author_profile: true
+  - scope:
+      path: ""
+      type: "talks"
+    values:
+      layout: "talk"
+      author_profile: true
+
+# Social previews
+twitter:
+  username: ""
+twitter_image: "/assets/img/og.jpg"
+og_image: "/assets/img/og.jpg"
