@@ -11,9 +11,8 @@ markdown: kramdown
 highlighter: rouge
 permalink: /:categories/:title/
 # Use AcademicPages remote theme
-remote_theme: "academicpages/academicpages@v0.5.0"
+remote_theme: "academicpages/academicpages.github.io@v0.8.3"
 
-# Plugins
 plugins:
   - jekyll-include-cache
   - jekyll-feed
